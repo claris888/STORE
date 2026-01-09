@@ -26,10 +26,10 @@ app.set('views', path.join(__dirname, 'views'));
 
 // Products storage (in-memory for simplicity)
 let products = [
-  { id: 1, name: 'Apple', image: 'apple.svg', price: 2.99 },
-  { id: 2, name: 'Banana', image: 'banana.svg', price: 1.99 },
-  { id: 3, name: 'Orange', image: 'orange.svg', price: 3.49 },
-  { id: 4, name: 'Strawberry', image: 'strawberry.png', price: 4.99 }
+  { id: 1, name: 'LearnPythonProgramming', image: 'LearnPythonProgramming.jpg', price: 42.99 },
+  { id: 2, name: 'JavascriptDataStructuresAndAlgorithms', image: 'JavascriptDataStructuresAndAlgorithms.jpg', price: 51.99 },
+  { id: 3, name: 'GenerativeAIForTradingAndAssetManagement', image: 'GenerativeAIForTradingAndAssetManagement.jpg', price: 63.49 },
+  { id: 4, name: 'ABeginnersGuideToGenerativeAI', image: 'ABeginnersGuideToGenerativeAI.jpg', price: 84.99 }
 ];
 
 // Authentication middleware
@@ -59,7 +59,7 @@ app.get('/login', (req, res) => {
 app.post('/login', (req, res) => {
   const { email, password } = req.body;
 
-  if (email === 'customer@store.com' && password === '1234') {
+  if (email === 'test@test.com' && password === 'test') {
     req.session.authenticated = true;
     req.session.user = { email };
     res.redirect('/product');
