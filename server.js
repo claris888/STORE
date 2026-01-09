@@ -29,7 +29,7 @@ let products = [
   { id: 1, name: 'Apple', image: 'apple.svg', price: 2.99 },
   { id: 2, name: 'Banana', image: 'banana.svg', price: 1.99 },
   { id: 3, name: 'Orange', image: 'orange.svg', price: 3.49 },
-  { id: 4, name: 'Strawberry', image: 'strawberry.svg', price: 4.99 }
+  { id: 4, name: 'Strawberry', image: 'strawberry.png', price: 4.99 }
 ];
 
 // Authentication middleware
