@@ -1,0 +1,14 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Banana body -->
+  <path d="M 40 100 Q 100 40, 160 80" stroke="#FFD700" stroke-width="50" fill="none" stroke-linecap="round"/>
+  
+  <!-- Banana shading -->
+  <path d="M 40 100 Q 100 40, 160 80" stroke="#FFA500" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.5"/>
+  
+  <!-- Highlight -->
+  <path d="M 42 92 Q 100 35, 155 75" stroke="#FFFF99" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- Texture lines -->
+  <path d="M 50 95 Q 90 45, 150 80" stroke="#DAA520" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M 55 105 Q 100 50, 160 85" stroke="#DAA520" stroke-width="2" fill="none" opacity="0.4"/>
+</svg>

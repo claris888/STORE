@@ -1,0 +1,28 @@
+{
+  "name": "store",
+  "version": "1.0.0",
+  "description": "A store website with login and product management",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claris888/STORE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ejs": "^3.1.9",
+    "express-session": "^1.17.3",
+    "body-parser": "^1.20.2"
+  },
+  "bugs": {
+    "url": "https://github.com/claris888/STORE/issues"
+  },
+  "homepage": "https://github.com/claris888/STORE#readme"
+}
